@@ -1,14 +1,14 @@
-#!/usr/local/bin/node
+#!/usr/bin/env node
 
 /*
  * Runs Log.IO server
  * Reads configuration from /etc/log.io/server.conf
  */
 
-var logio = require('log.io');
+var logio = require('../index.js');
 
 // Import config, create HTTPServer
-var config = require('/etc/log.io/server.conf').config;
+var config = require('../etc/conf/server.conf').config;
 
 if (config.basic_auth) {
   var user = config.basic_auth.username;

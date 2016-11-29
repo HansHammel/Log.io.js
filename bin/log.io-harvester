@@ -1,14 +1,14 @@
-#!/usr/local/bin/node
+#!/usr/bin/env node
 
 /*
  * Runs Log.IO harvester
  * Reads configuration from /etc/log.io/harvester.conf
  */
 
-var logio = require('log.io');
+var logio = require('../index.js');
 
 // Import config
-var config = require('/etc/log.io/harvester.conf').config;
+var config = require('../etc/conf/harvester.conf').config;
 
 // Import config, determine harvester instance name
 if (process.env.LOGIO_HARVESTER_INSTANCE_NAME && !config.instance_name) {

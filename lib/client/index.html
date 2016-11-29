@@ -1,10 +1,12 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Log.io</title>
 <link rel="stylesheet" type="text/css" href="css/web_client.css"/>
 <link rel="stylesheet" type="text/css" href="css/colors.css"/>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script src="/js/lib/underscore.min.js"></script>
 <script src="/js/node.js"></script>
@@ -15,7 +17,7 @@
 <script src="/js/includes.js"></script>
 <script src="/js/web_client.js"></script>
 
-<script src="/js/lib/scrollTo.jquery.js"></script>
+<!--<script src="/js/lib/scrollTo.jquery.js"></script>-->
 <script src="/js/ui/screen_search.jquery.js"></script>
 <script src="/js/ui/renderers.jquery.js"></script>
 <script src="/js/ui/web_client.jquery.js"></script>
@@ -76,6 +78,7 @@
 <a class="button clear" href="#"><img src="/images/icons/bin.png" title="Clear Screen"/></a>
 <a class="button pause" href="#"><img src="/images/icons/control_pause.png" title="Pause Stream"/></a>
 <a class="button start" href="#"><img src="/images/icons/control_play.png" title="Start Stream"/></a>
+<a class="button filter" href="#"><input type="checkbox" title="Filter Stream"/></a>
 </div>
 <div class="screen-search"><a href="#" class="result-count"></a><input type="text" class="inactive" name="search" title="Regex Search" value="Regex Search"/></div>
 <div class="screen-filter"><a href="#" class="result-count"></a><input type="text" class="inactive" name="filter" title="Regex Filter" value="Regex Filter"/></div>
@@ -92,6 +95,7 @@
 <div class="bar-top-right">
 <div class="screen-buttons">
 <a class="button close" href="#"><img src="/images/icons/cross.png" title="Close Screen"/></a>
+<a class="button filter" href="#"><input type="checkbox" title="Filter Stream"/></a>
 </div>
 <div class="screen-search"><a href="#" class="result-count"></a><input type="text" class="inactive" name="search" title="Regex Search" value="Regex Search"/></div>
 <div class="screen-filter"><a href="#" class="result-count"></a><input type="text" class="inactive" name="search" title="Regex Filter" value="Regex Filter"/></div>
