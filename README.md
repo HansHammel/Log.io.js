@@ -1,5 +1,16 @@
 # refurbished initial js version with latest dependencies (working)
 
+[![Build Status](https://secure.travis-ci.org/HansHammel/Log.io.js.png?branch=master)](http://travis-ci.org/HansHammel/Log.io.js)
+[![Inline docs](http://inch-ci.org/github/HansHammel/Log.io.js.svg?branch=master)](http://inch-ci.org/github/HansHammel/Log.io.js)
+[![star this repo](http://githubbadges.com/star.svg?user=HansHammel&repo=Log.io.js&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/Log.io.js)
+[![fork this repo](http://githubbadges.com/fork.svg?user=HansHammel&repo=Log.io.js&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/Log.io.js/fork)
+[![david dependency](https://img.shields.io/david/HansHammel/Log.io.js.svg)](https://david-dm.org/HansHammel/Log.io.js)
+[![david devDependency](https://img.shields.io/david/dev/HansHammel/Log.io.js.svg)](https://david-dm.org/HansHammel/Log.io.js)
+[![david optionalDependency](https://img.shields.io/david/optional/HansHammel/Log.io.js.svg)](https://david-dm.org/HansHammel/Log.io.js)
+[![david peerDependency](https://img.shields.io/david/peer/HansHammel/Log.io.js.svg)](https://david-dm.org/HansHammel/Log.io.js)
+[![npms score](https://badges.npms.io/Log.io.js.svg)](https://www.npmjs.com/package/Log.io.js)
+[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/Log.io.js.svg)](https://snyk.io/test/github/HansHammel/Log.io.js)
+
 Usage
 =====
 
