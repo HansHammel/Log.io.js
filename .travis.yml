@@ -5,7 +5,7 @@ sudo: false
 branches:
   only:
     - master
-    - /^greenkeeper/.*$/
+    - /^greenkeeper-.*$/
 
 node_js:
   - '7'
