@@ -23,13 +23,13 @@
     "url": "https://github.com/NarrativeScience/Log.io"
   },
   "dependencies": {
-    "basic-auth": "^1.1.0",
+    "basic-auth": "^2.0.1",
     "commander": "^2.9.0",
     "connect": "^3.5.0",
-    "forever": "^0.15.0",
+    "forever": "^1.0.0",
     "serve-static": "^1.11.1",
-    "socket.io": "^1.7.0",
-    "socket.io-client": "^1.7.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
     "underscore": "^1.8.0"
   },
   "scripts": {
