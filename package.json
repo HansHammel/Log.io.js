@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
-    "commander": "^2.9.0",
+    "commander": "^3.0.0",
     "connect": "^3.5.0",
     "forever": "^1.0.0",
     "serve-static": "^1.11.1",
