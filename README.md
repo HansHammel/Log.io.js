@@ -9,7 +9,7 @@
 [![david optionalDependency](https://img.shields.io/david/optional/HansHammel/Log.io.js.svg)](https://david-dm.org/HansHammel/Log.io.js)
 [![david peerDependency](https://img.shields.io/david/peer/HansHammel/Log.io.js.svg)](https://david-dm.org/HansHammel/Log.io.js)
 [![npms score](https://badges.npms.io/Log.io.js.svg)](https://www.npmjs.com/package/Log.io.js)
-[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/Log.io.js.svg)](https://snyk.io/test/github/HansHammel/Log.io.js) [![Greenkeeper badge](https://badges.greenkeeper.io/HansHammel/Log.io.js.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/Log.io.js.svg)](https://snyk.io/test/github/HansHammel/Log.io.js) 
 
 Usage
 =====
